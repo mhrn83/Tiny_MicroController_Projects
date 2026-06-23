@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"flappy_bird\startup_stm32f407xx.o"
+"flappy_bird\main.o"
+"flappy_bird\stm32f4xx_it.o"
+"flappy_bird\stm32f4xx_hal_msp.o"
+"flappy_bird\game_play.o"
+"flappy_bird\dot_matrix_driver.o"
+"flappy_bird\stm32f4xx_hal_rcc.o"
+"flappy_bird\stm32f4xx_hal_rcc_ex.o"
+"flappy_bird\stm32f4xx_hal_flash.o"
+"flappy_bird\stm32f4xx_hal_flash_ex.o"
+"flappy_bird\stm32f4xx_hal_flash_ramfunc.o"
+"flappy_bird\stm32f4xx_hal_gpio.o"
+"flappy_bird\stm32f4xx_hal_dma_ex.o"
+"flappy_bird\stm32f4xx_hal_dma.o"
+"flappy_bird\stm32f4xx_hal_pwr.o"
+"flappy_bird\stm32f4xx_hal_pwr_ex.o"
+"flappy_bird\stm32f4xx_hal_cortex.o"
+"flappy_bird\stm32f4xx_hal.o"
+"flappy_bird\stm32f4xx_hal_exti.o"
+"flappy_bird\system_stm32f4xx.o"
+--strict --scatter "Flappy_Bird\Flappy_Bird.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Flappy_Bird.map" -o Flappy_Bird\Flappy_Bird.axf
