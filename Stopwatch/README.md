@@ -1,6 +1,6 @@
 # StopWatch Project for AT89C51 Microcontroller
 
-<img align="right" alt="Proteus Simulation" src="Stopwatch.gif" width="30%">
+<img align="right" alt="Proteus Simulation" src="Stopwatch.gif" width="40%">
 
 ## Overview
 This project implements a simple stopwatch using the `AT89C51` microcontroller with the following features:
